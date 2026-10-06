@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basith & Ajmal | Wedding Invitation</title>
+  <meta name="description" content="We cordially invite you to our wedding celebration">
+  <meta property="og:title" content="Basith & Ajmal | Wedding Invitation">
+  <meta property="og:description" content="We cordially invite you to our wedding celebration">
+  <meta property="og:image" content="assests/images/123.png">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" loop>
+    <source src="assests/audio/music1.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="Toggle music">
+    <span id="musicIcon" aria-hidden="true">&#128263;</span>
+  </button>
+
+  <div id="env-screen">
+    <button class="env-outer" id="env" type="button" aria-label="Open invitation">
+      <svg class="env-svg" viewBox="0 0 340 228" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="340" height="228" rx="4" fill="#e8dcc8"></rect>
+        <rect width="340" height="228" rx="4" fill="none" stroke="#b39f86" stroke-width="1.5" opacity="0.55"></rect>
+        <path d="M0 228 L170 136 L340 228Z" fill="#d1b79c"></path>
+        <path d="M0 0 L170 136 L340 0Z" fill="#d1b79c"></path>
+        <path d="M0 0 L170 136 L0 228Z" fill="#c2ab92"></path>
+        <path d="M340 0 L170 136 L340 228Z" fill="#c2ab92"></path>
+        <path d="M0 228 L170 136 L340 228" stroke="#b39f86" stroke-width="1" fill="none" opacity="0.4"></path>
+        <path d="M0 0 L170 136 L340 0" stroke="#b39f86" stroke-width="1" fill="none" opacity="0.3"></path>
+        <path d="M0 0 L340 228" stroke="#b39f86" stroke-width="0.8" opacity="0.2"></path>
+        <path d="M340 0 L0 228" stroke="#b39f86" stroke-width="0.8" opacity="0.2"></path>
+      </svg>
+
+      <span id="card-peek">
+        <span class="peek-text">You're Invited</span>
+      </span>
+
+      <span class="seal">
+        <span class="seal-mono">B&amp;A</span>
+        <span class="seal-star">&#10022;</span>
+      </span>
+    </button>
+
+    <p class="tap-hint">Tap the seal to open</p>
+  </div>
+
+  <main id="main">
+    <section class="intro-card" aria-label="Wedding invitation">
+      <p class="eyebrow">You're Invited</p>
+      <h1>Basith <span>&amp;</span> Ajmal</h1>
+      <p class="intro-line">With warm hearts, we request the honour of your presence.</p>
+    </section>
+
+    <section class="details-card" aria-label="Wedding details">
+      <p class="details-kicker">Save the Date</p>
+      <p class="details-date">05.09.2026</p>
+
+      <div class="detail-block">
+        <span>Nikkah Ceremony On</span>
+        <strong>September 04, 2026<br>After Asar Namaz</strong>
+        <em>At Nelliparamba Thaqwa Juma Masjid</em>
+      </div>
+
+      <div class="detail-block">
+        <span>Reception On</span>
+        <strong>September 05, 2026<br>12:00 PM</strong>
+        <em>At Nanma Auditorium, Thaliparamba</em>
+      </div>
+    </section>
+
+    <section class="image-stack" aria-label="Invitation details">
+      <div class="img-wrap photo-panel name-panel">
+        <img src="assests/images/1.AVIF" alt="">
+        <div class="name-overlay">
+          <p>Basith</p>
+          <span>&amp;</span>
+          <p>Ajmal</p>
+        </div>
+      </div>
+
+      <div class="img-wrap photo-panel quote-panel">
+        <img src="assests/images/2.AVIF" alt="">
+        <div class="quote-overlay">
+          <p>Together with our families</p>
+          <strong>Basith &amp; Ajmal</strong>
+          <p>invite you to celebrate this beautiful beginning.</p>
+        </div>
+      </div>
+
+      <div class="img-wrap">
+        <img src="assests/images/3.png" alt="Save the date: September 5, 2026">
+      </div>
+
+      <div class="img-wrap map-section">
+        <img src="assests/images/4.AVIF" alt="Wedding location">
+
+        <div class="map-button">
+          <a href="https://maps.app.goo.gl/Dg9LBzXj4etvY7oo6?g_st=ic" target="_blank" rel="noopener noreferrer">
+            &#128205; Click here to view location<br>Nelliparamba Thaqwa Juma Masjid
+          </a>
+
+          <a href="https://maps.app.goo.gl/PYT43dwjcjopZa5Z6?g_st=iwb" target="_blank" rel="noopener noreferrer">
+            &#128205; Click here to view location<br>Nanma Auditorium, Thaliparamba
+          </a>
+        </div>
+      </div>
+
+      <div class="img-wrap photo-panel image-label-wrap">
+        <img src="assests/images/5.AVIF" alt="">
+        <div class="closing-overlay">
+          <p>Awaiting your presence</p>
+          <strong>Basith &amp; Ajmal</strong>
+        </div>
+        <a class="image-label" href="https://www.instagram.com/leora.invite" target="_blank" rel="noopener noreferrer">LEORA.INVITE</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
