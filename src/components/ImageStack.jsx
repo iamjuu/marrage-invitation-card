@@ -52,7 +52,7 @@ export default function ImageStack() {
         <div className="map-button">
           <a
             className="map-link"
-            href="https://maps.app.goo.gl/Dg9LBzXj4etvY7oo6?g_st=ic"
+            href="https://maps.app.goo.gl/knFBWASvksqDDpRU9?g_st=iw"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,12 +60,12 @@ export default function ImageStack() {
               <MapPin size={18} color="#9e7529" />
               <span>Click here to view location</span>
             </div>
-            <strong>Nelliparamba Thaqwa Juma Masjid</strong>
+            <strong>Kadambur Juma Masjid</strong>
           </a>
 
           <a
             className="map-link"
-            href="https://maps.app.goo.gl/PYT43dwjcjopZa5Z6?g_st=iwb"
+            href="https://maps.app.goo.gl/9HTMNrCk6thEDrzVA?g_st=iw"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,7 +73,7 @@ export default function ImageStack() {
               <MapPin size={18} color="#9e7529" />
               <span>Click here to view location</span>
             </div>
-            <strong>Nanma Auditorium, Thaliparamba</strong>
+            <strong>Marwa (Groom's Residence)</strong>
           </a>
         </div>
       </div>

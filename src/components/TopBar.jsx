@@ -60,27 +60,7 @@ export default function TopBar({ isPlaying, onToggleMusic }) {
             </span>
           </button>
 
-          {/* Background Music Toggle */}
-          {/* <button
-            type="button"
-            className={`top-btn music-btn ${isPlaying ? 'is-playing' : ''}`}
-            onClick={onToggleMusic}
-            title={isPlaying ? 'Pause Music' : 'Play Music'}
-            aria-label="Toggle Music"
-          >
-            {isPlaying ? (
-              <>
-                <Volume2 size={15} className="btn-icon" />
-                <span className="sound-waves">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </>
-            ) : (
-              <VolumeX size={15} className="btn-icon" />
-            )}
-          </button> */}
+       
         </div>
       </div>
     </header>
