@@ -5,27 +5,28 @@ export default function MapSection() {
   const [activeVenue, setActiveVenue] = useState('nikah'); // 'nikah' | 'reception'
 
   const venues = {
-    nikah: {
-      title: 'Nikah Ceremony',
-      place: 'Kadambur Juma Masjid',
-      time: '11:00 AM, Sunday, 11 Oct 2026',
-      description: 'Kadambur, Kannur District, Kerala',
-      mapsQuery: 'Kadambur Juma Masjid Kannur',
-      mapsUrl: 'https://maps.app.goo.gl/knFBWASvksqDDpRU9?g_st=iw',
-      embedSrc: 'https://maps.google.com/maps?q=Kadambur+Juma+Masjid+Kannur&t=&z=15&ie=UTF8&iwloc=&output=embed',
-      icon: '🕌',
-    },
-    reception: {
-      title: 'Reception Venue',
-      place: "Marwa (Groom's Residence)",
-      time: '12:30 PM, Sunday, 11 Oct 2026',
-      description: 'Kadambur, Kannur District, Kerala',
-      mapsQuery: 'Kadambur Kannur Kerala',
-      mapsUrl: 'https://maps.app.goo.gl/9HTMNrCk6thEDrzVA?g_st=iw',
-      embedSrc: 'https://maps.google.com/maps?q=Kadambur+Kannur&t=&z=14&ie=UTF8&iwloc=&output=embed',
-      icon: '🏡',
-    },
-  };
+  nikah: {
+    title: 'Nikah Ceremony',
+    place: 'Kadambur Juma Masjid',
+    time: '11:00 AM, Sunday, 11 Oct 2026',
+    description: 'Kadambur, Kannur District, Kerala',
+    mapsQuery: 'Kadambur Juma Masjid Kannur',
+    mapsUrl: 'https://maps.app.goo.gl/knFBWASvksqDDpRU9?g_st=iw',
+    embedSrc: 'https://maps.google.com/maps?q=Kadambur+Juma+Masjid+Kannur&t=&z=15&ie=UTF8&iwloc=&output=embed',
+    icon: '🕌',
+  },
+
+  reception: {
+    title: 'Reception Venue',
+    place: "Marwa (Groom's Residence)",
+    time: '12:30 PM, Sunday, 11 Oct 2026',
+    description: 'Kadambur, Kannur District, Kerala',
+    mapsQuery: 'Kadambur Kannur Kerala',
+    mapsUrl: 'https://maps.app.goo.gl/9HTMNrCk6thEDrzVA?g_st=iw',
+    embedSrc: 'https://maps.google.com/maps?q=Kadambur+Kannur&t=&z=14&ie=UTF8&iwloc=&output=embed',
+    icon: '🏡',
+  },
+};
 
   const current = venues[activeVenue];
 
